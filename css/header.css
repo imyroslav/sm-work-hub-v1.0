@@ -1,0 +1,77 @@
+.logo-header {
+    font-family: "Raleway", san-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.logo-header:hover {
+    color: #FFCC00;
+}
+
+.navigation {
+    padding: 20px;
+}
+
+
+.address {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 20px;
+    gap: 10px;
+
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    stroke: #FFCC00;
+    fill: #FFCC00;
+}
+
+.address-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    transition: color 0.5s;
+}
+
+.address-link:hover {
+    color: #FFCC00;
+}
+
+.div-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #006666, #009999);
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .address-list {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 40px;
+    }
+
+    .address {
+        margin-left: auto;
+    }
+
+    .div-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

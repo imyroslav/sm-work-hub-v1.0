@@ -1,0 +1,43 @@
+.list-vacancy {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h3-vacancy {
+    color: #006666;
+}
+
+.le-vacancy {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    border: 3px solid #006666;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.p-vacancy {
+    color: #006666;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .h3-vacancy {
+        font-size: 36px;
+    }
+
+    .p-vacancy {
+        font-size: 24px;
+    }
+
+    .le-vacancy {
+        width: 60%;
+    }
+
+}
