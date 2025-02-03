@@ -18,6 +18,7 @@
     window.onload = function () {
         document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault();
+            document.getElementById('contact-form').reset();
             // these IDs from the previous steps
             emailjs.sendForm('service_suo6ntj', 'template_w8c6dv8', this)
                 .then(() => {
